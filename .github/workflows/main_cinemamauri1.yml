@@ -63,7 +63,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'cinemaferrario'
+          app-name: 'cinemamauri1'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6FF9167F26B14A9DAC03787CB2E3CA16 }}
           package: .
